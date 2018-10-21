@@ -1,0 +1,15 @@
+version: '3'
+services:
+  backend-tests:
+    build:
+      context: ./backend
+      dockerfile: tests.dockerfile
+    command: bash -c "while true; do sleep 1; done"
+    environment:
+      - SERVER_NAME=${DOMAIN}
+      - POSTGRES_SERVER=${POSTGRES_SERVER}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - FIRST_SUPERUSER=${FIRST_SUPERUSER}
+      - FIRST_SUPERUSER_PASSWORD=${FIRST_SUPERUSER_PASSWORD}
