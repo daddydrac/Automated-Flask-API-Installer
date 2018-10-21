@@ -645,18 +645,18 @@ Traefik UI: http://localhost.joehoeller.com:8090
 
 ## Project generation and updating, or re-generating
 
-This project was generated using https://github.com/joehoeller/Uptrend with:
+This project was generated using https://github.com/joehoeller/uptrend with:
 
 ```bash
 pip install cookiecutter
-cookiecutter https://github.com/joehoeller/Uptrend
+cookiecutter https://github.com/joehoeller/uptrend
 ```
 
 You can check the variables used during generation in the file `cookiecutter-config-file.yml`.
 
 You can generate the project again with the same configurations used the first time.
 
-That would be useful if, for example, the project generator (`joehoeller/Uptrend`) was updated and you want to integrate or review the changes.
+That would be useful if, for example, the project generator (`joehoeller/uptrend`) was updated and you want to integrate or review the changes.
 
 You could generate a new project with the same configurations as this one in a parallel directory. And compare the differences between the two, without having to overwrite your current code but being able to use the same variables used for your current project.
 
@@ -667,7 +667,7 @@ You can use that file while generating a new project to reuse all those variable
 For example, run:
 
 ```bash
-cookiecutter --config-file ./cookiecutter-config-file.yml --output-dir ../project-copy https://github.com/joehoeller/Uptrend
+cookiecutter --config-file ./cookiecutter-config-file.yml --output-dir ../project-copy https://github.com/joehoeller/uptrend
 ```
 
 That will use the file `cookiecutter-config-file.yml` in the current directory (in this project) to generate a new project inside a sibling directory `project-copy`.
