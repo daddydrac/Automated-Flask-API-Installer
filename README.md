@@ -16,6 +16,18 @@ cookiecutter https://github.com/joehoeller/uptrend
 Follow the prompts until you get to: ```secret_key [changethis]:``` Go to the next tab and copy/paste 
 the openssl key in to encrypt the app cluster.
 
+For the Sentry.io prompt add:
+```
+https://01a48442768f414dae1094221e5e6a9c@sentry.io/1305465
+```
+To add Sentry to your Python code, simply write:
+```
+$ pip install --upgrade sentry-sdk==0.4.3
+
+import sentry_sdk
+sentry_sdk.init("https://01a48442768f414dae1094221e5e6a9c@sentry.io/1305465")
+```
+
 Then cd /"project_name" folder, and run:
 ```
 docker-compose build
