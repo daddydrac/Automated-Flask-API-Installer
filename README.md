@@ -10,7 +10,7 @@ Open a new tab in command line and type:
 openssl rand -hex 32
 # Outputs something like: 99d3b1f01aa639e4a76f4fc281fc834747a543720ba4c8a8648ba755aef9be7f
 
-cookiecutter git@github.com:joehoeller/uptrend.git
+cookiecutter git@github.com:joehoeller/Automated-Flask-API-Installer.git
 ```
 Follow the prompts until you get to: ```secret_key [changethis]:``` Go to the next tab and copy/paste 
 the openssl key in to encrypt the app cluster.
