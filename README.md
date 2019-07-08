@@ -32,7 +32,7 @@ Then cd /"project_name" folder, and run:
 ```
 docker-compose build
 ```
-And then start the machine learning infrastructure:
+And then start the app infrasturcture to support your machine learning app:
 ```
 docker-compose up -d
 ```
