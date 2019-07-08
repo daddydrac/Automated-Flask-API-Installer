@@ -1,5 +1,5 @@
 # Automated Flask API Installer
-Automated login/auth, database deployemnt with PostgresSQL and PGADMIN, with a fully funstional front end in VueJS -- sets up all in the command line in seconds!
+Automated login/auth, database deployemnt with PostgresSQL and PGADMIN, with a fully functional front end in VueJS -- sets up all in the command line in seconds!
 
 Automated remote deploy of app + clusters:
 
