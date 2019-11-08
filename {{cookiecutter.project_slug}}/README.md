@@ -156,7 +156,7 @@ root@73e0ec1f1ae6:/app# $JUPYTER
         http://(73e0ec1f1ae6 or 127.0.0.1):8888/?token=f20939a41524d021fbfc62b31be8ea4dd9232913476f4397
 ```
 
-you can copy that URL and modify the "host" to be `localhost` or the domain you are using for development (e.g. `local.dockertoolbox.tiangolo.com`), in the case above, it would be, e.g.:
+you can copy that URL and modify the "host" to be `localhost` or the domain you are using for development (e.g. `local.dockertoolbox.joehoeller.com`), in the case above, it would be, e.g.:
 
 ```
 http://localhost:8888/token=f20939a41524d021fbfc62b31be8ea4dd9232913476f4397
