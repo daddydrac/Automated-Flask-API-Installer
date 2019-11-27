@@ -51,3 +51,8 @@ Now you can open your browser and interact with these URLs:
 
 -Traefik UI, to see how the routes are being handled by the proxy: http://localhost:8090
 
+----------------------------------------------------------------------------------------
+
+### Credits
+
+Based on the work of Sebastián Ramírez: https://github.com/tiangolo/full-stack-fastapi-couchbase
